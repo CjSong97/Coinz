@@ -18,7 +18,7 @@ import com.mapbox.mapboxsdk.maps.MapView
 import com.mapbox.mapboxsdk.maps.MapboxMap
 import com.mapbox.mapboxsdk.plugins.locationlayer.LocationLayerPlugin
 
-class MainActivity() : AppCompatActivity(), PermissionsListener, LocationEngineListener {
+class MainActivity : AppCompatActivity(), PermissionsListener, LocationEngineListener {
 
 
     private lateinit var mapView: MapView
@@ -69,7 +69,7 @@ class MainActivity() : AppCompatActivity(), PermissionsListener, LocationEngineL
         }
     }
 
-    //showing warnings even though its the right code
+    //showing warnings even though its the right constant
     @SuppressWarnings("MissingPermission")
     private fun initializeLocationLayer() {
         locationLayerPlugin = LocationLayerPlugin(mapView, map, locationEngine)

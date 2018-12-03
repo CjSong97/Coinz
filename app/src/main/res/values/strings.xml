@@ -2,4 +2,10 @@
     <string name="app_name">Coinz</string>
     <string name="access_token">pk.eyJ1IjoiY2pzb25nIiwiYSI6ImNqbjF1eGRmOTBuemUzcHBjY3l4cG5ia28ifQ.GM-cj05b4W1_cNAohuN3Bw</string>
 
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="login_title">Login</string>
+    <string name="create_act">Create Account</string>
 </resources>
