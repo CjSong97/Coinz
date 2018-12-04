@@ -8,4 +8,8 @@
     <string name="last_name">Last Name</string>
     <string name="login_title">Login</string>
     <string name="create_act">Create Account</string>
+    <!-- added these to fit xml login and forgot password -->
+    <string name="etEmail">EtEmail</string>
+    <string name="send_password_reset_email">Send Password Reset Email</string>
+    <string name="etPassword">EtPassword</string>
 </resources>
